@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingTop="20dp"
+    android:paddingRight="20dp">
+
+    <TextView
+        android:id="@+id/lbl_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="login"
+        android:textAllCaps="true"
+        android:textColor="#F44336"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_title"
+        android:layout_marginTop="40dp"
+        android:text="Username"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edt_uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lbl_uname"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/lbl_uname"
+        android:ems="10"
+        android:hint="Enter username"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/edt_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/lbl_pwd"
+        android:layout_marginLeft="40dp"
+        android:layout_toRightOf="@id/lbl_uname"
+        android:ems="10"
+        android:hint="Enter password"
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/lbl_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lbl_uname"
+        android:layout_marginTop="40dp"
+        android:text="Password"
+        android:textColor="#3F51B5"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/lbl_pwd"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Ok"
+        android:textColor="#ff2196f3"
+        android:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/btn_cancel"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@id/btn_ok"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/btn_ok"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:textColor="#FF5722"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_forgot"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_ok"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="forgot password"
+        android:textAllCaps="false"
+        android:textColor="#673AB7"
+        android:textSize="24sp" />
+
+</RelativeLayout>

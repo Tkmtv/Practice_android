@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FlowerApp</string>
+    <string name="name">Tibouchina Semidecandra</string>
+    <string name="content">Beautiful large royal purple flowers adorn attractive satiny green leaves that turn orange/red in cold weather. Grows to up to 18 feet, or prune annually to shorten.</string>
+    <string name="title">Ứng dụng máy tính cơ bản</string>
+    <string name="sum">Cộng</string>
+    <string name="sub">Trừ</string>
+    <string name="mul">Nhân</string>
+    <string name="div">Chia</string>
+    <string name="res">Kết quả của phép tính hiển thị tại đây</string>
+</resources>

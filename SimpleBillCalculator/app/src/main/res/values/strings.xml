@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Simple Bill Calculator</string>
+    <string name="lblInfo">Thông tin hóa đơn</string>
+    <string name="htnName">Nhập tên khách hàng</string>
+    <string name="htnAmount">Nhập số lượng</string>
+    <string name="lblVIP">Khách hàng là VIP</string>
+    <string name="lblBill">Thành tiền:</string>
+    <string name="btnCal">Tính TT</string>
+    <string name="btnNext">Tiếp</string>
+    <string name="btnStat">Thống kê</string>
+    <string name="lblStat">Thông tin thống kê</string>
+    <string name="lblCustomers">Tổng số khách hàng</string>
+    <string name="lblNoVIPs">Tổng số KH là VIP</string>
+    <string name="lblSales">Tổng doanh thu</string>
+    <string name="btnExit">Thoát</string>
+</resources>
