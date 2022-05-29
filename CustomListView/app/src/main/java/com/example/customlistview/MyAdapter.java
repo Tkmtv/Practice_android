@@ -1,4 +1,4 @@
-package com.example.spinner;
+package com.example.customlistview;
 
 import android.app.Activity;
 import android.content.Context;
@@ -10,8 +10,6 @@ import android.widget.CheckBox;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-
-import com.example.spinner.R;
 
 import java.util.ArrayList;
 

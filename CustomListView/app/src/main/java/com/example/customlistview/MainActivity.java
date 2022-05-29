@@ -17,9 +17,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 
-import Adapter.MyAdapter;
-import Model.Employee;
-
 public class MainActivity extends AppCompatActivity {
 
     EditText edt_id, edt_name;
