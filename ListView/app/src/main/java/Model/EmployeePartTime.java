@@ -19,6 +19,6 @@ public class EmployeePartTime extends Employee {
     @NonNull
     @Override
     public String toString() {
-        return super.toString() + "Parttime " + TinhLuong();
+        return super.toString() + " Parttime " + TinhLuong();
     }
 }
